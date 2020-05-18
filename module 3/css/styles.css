@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;   
+    font-family: 'Oxygen' sans-serif;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Oxygen' sans-serif;
+    color: wheat;
+    background-color: #ecc648;
+
+}
+/* header */
+
+
+#header-nav{
+    background-color: teal;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button{
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    text-decoration: none;
+    background-color: thistle;
+}
+
+.navbar-collapse{
+    border-top: 0;
+}
+
+.navbar-brand. .navbar li a{
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+
+}
+.navbar-brand a h1 {
+    color: #7d1913;
+    font-family: 'Oxygen' sans-serif;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+#nav-list {
+    background-color: #e4af34;
+}
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+/* header end */
+
+/* main */
+
+#main-content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #000000;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #ec6314;
+}
+
+
+/** END HOME PAGE **/
